@@ -181,18 +181,5 @@ mpirun --version
 /opt/homebrew/bin/mpirun -np 2 ./mpi_forest
 ```
 
-## Authors
 
-- Parallel Random Forest Implementation
-- CSci 4330 - Fall 2025
-
-## License
-
-This project is part of a course assignment.
-
-## References
-
-- Random Forest algorithm by Leo Breiman
-- MPI for distributed computing
-- OpenMP for shared-memory parallelism
 
