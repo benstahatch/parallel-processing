@@ -10,9 +10,9 @@
 #include "mpi_forest.h"
 using namespace std;
 
-// ------------------------------------------------------------
-// Load CSV file as floats. Last column is class label.
-// ------------------------------------------------------------
+/**
+ * TODO: should be in a separate file -
+ */
 void readCSV(const string& filename, vector<vector<double>>& X, vector<int>& y)
 {
     ifstream file(filename);
