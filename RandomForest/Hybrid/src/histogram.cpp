@@ -95,6 +95,8 @@ void findBestSplitFromHistogram(
         for (int c = 0; c < C; ++c) {
             totalLeft  += leftCounts[c];
             totalRight += rightCounts[c];
+
+            
         }
         int total = totalLeft + totalRight;
         if (totalLeft == 0 || totalRight == 0) continue;
